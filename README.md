@@ -12,7 +12,8 @@ Advanced SQL Operations: Demonstrates complex SQL operations including joins, su
 ### Tables and Relationships
 Branch, Member, Publisher, Book, Author: Core entities representing the library's branches, members, publishers, books, and authors.
 Authoredby, Holding, Borrowedby: Associative tables managing the relationships between books and authors, books' availability in branches, and books' borrowing details.
-Constraints and Triggers
+
+### Constraints and Triggers
 Check constraints: To ensure valid data entry (e.g., stock count should not be less than the number of books on loan).
 Triggers: For automating tasks such as updating member status based on borrowing behavior, tracking membership changes, enforcing borrowing limits, and ensuring return dates are within membership validity.
 
@@ -21,5 +22,5 @@ Implementing procedures to manage complex operations like terminating overdue me
 
 ### Test Scenarios
 Detailed test cases to validate the functionality of triggers, stored procedures, and data integrity constraints.
-Purpose
+
 
